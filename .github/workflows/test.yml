@@ -17,5 +17,5 @@ jobs:
       - run: go test ./...
       - name: Docs are generated
         run: |
-          go run github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs generate --provider-name transmit
+          go run github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs@v0.25.0 generate --provider-name transmit
           git diff --exit-code docs

@@ -58,7 +58,7 @@ go test ./...                                    # unit tests
 TF_ACC=1 TRANSMIT_API_KEY=tr_v2_… \
   TRANSMIT_API_URL=http://127.0.0.1:3000/api \
   go test ./internal/provider -run TestAccOnCall # acceptance, against a running Transmit
-go run github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs generate --provider-name transmit
+go run github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs@v0.25.0 generate --provider-name transmit
 ```
 
 Releases: push a `v*` tag. `.github/workflows/release.yml` builds and signs with GoReleaser; the
