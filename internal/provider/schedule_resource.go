@@ -17,7 +17,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework-validators/int64validator"
 
-	"github.com/puchesjr/terraform-provider-transmit/internal/client"
+	"github.com/transmitdev/terraform-provider-transmit/internal/client"
 )
 
 type scheduleResource struct{ base }

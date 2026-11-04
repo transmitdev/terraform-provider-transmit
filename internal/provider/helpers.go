@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/puchesjr/terraform-provider-transmit/internal/client"
+	"github.com/transmitdev/terraform-provider-transmit/internal/client"
 )
 
 // base holds the configured client for every resource and data source.

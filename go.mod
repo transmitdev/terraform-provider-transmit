@@ -1,4 +1,4 @@
-module github.com/puchesjr/terraform-provider-transmit
+module github.com/transmitdev/terraform-provider-transmit
 
 go 1.25.8
 

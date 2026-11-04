@@ -16,7 +16,7 @@ Create a **live** API key in Settings → API keys with the `terraform` scope pr
 terraform {
   required_providers {
     transmit = {
-      source = "puchesjr/transmit"
+      source = "transmitdev/transmit"
     }
   }
 }

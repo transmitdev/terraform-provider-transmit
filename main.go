@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 
-	"github.com/puchesjr/terraform-provider-transmit/internal/provider"
+	"github.com/transmitdev/terraform-provider-transmit/internal/provider"
 )
 
 // version is set by goreleaser.
@@ -18,7 +18,7 @@ func main() {
 	flag.BoolVar(&debug, "debug", false, "run the provider with support for debuggers like delve")
 	flag.Parse()
 	err := providerserver.Serve(context.Background(), provider.New(version), providerserver.ServeOpts{
-		Address: "registry.terraform.io/puchesjr/transmit",
+		Address: "registry.terraform.io/transmitdev/transmit",
 		Debug:   debug,
 	})
 	if err != nil {

@@ -6,7 +6,7 @@ schedule overrides, escalation policies and heartbeats.
 ```hcl
 terraform {
   required_providers {
-    transmit = { source = "puchesjr/transmit" }
+    transmit = { source = "transmitdev/transmit" }
   }
 }
 

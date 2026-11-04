@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/resource/schema/stringplanmodifier"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 
-	"github.com/puchesjr/terraform-provider-transmit/internal/client"
+	"github.com/transmitdev/terraform-provider-transmit/internal/client"
 )
 
 type configurationResource struct{ base }

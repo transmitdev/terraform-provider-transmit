@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     transmit = {
-      source = "puchesjr/transmit"
+      source = "transmitdev/transmit"
     }
   }
 }

@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 
-	"github.com/puchesjr/terraform-provider-transmit/internal/client"
+	"github.com/transmitdev/terraform-provider-transmit/internal/client"
 )
 
 type dataBase struct{ base }
